@@ -35,25 +35,25 @@
             <div class="form-login">
                 <h1>Tus Datos</h1>
                 <div class="group-form">
-                    <h1 class="name-value" id="name-value"><b>Tu nombre:</b><?php echo $_POST["name"]; ?></h1>
+                    <h1 class="name-value" id="name-value"><b>Tu nombre:</b><?php echo $_POST["name_form"]; ?></h1>
                     <hr>
-                    <h1 class="name-value" id="name-value"><b>Tu apellido:</b><?php echo $_POST["surname"]; ?></h1>
+                    <h1 class="name-value" id="name-value"><b>Tu apellido:</b><?php echo $_POST["surname_form"]; ?></h1>
                     <hr>
-                    <h1 class="name-value" id="name-value"><b>Correo electronico:</b><?php echo $_POST["email"]; ?></h1>
+                    <h1 class="name-value" id="name-value"><b>Correo electronico:</b><?php echo $_POST["email_form"]; ?></h1>
                     <hr>
-                    <h1 class="name-value" id="name-value"><b>Contraseña:</b><?php echo $_POST["password"]; ?></h1>
+                    <h1 class="name-value" id="name-value"><b>Contraseña:</b><?php echo $_POST["password_form"]; ?></h1>
                     <hr>
-                    <h1 class="name-value" id="name-value"><b>Fecha de nacimiento:</b><?php echo $_POST["birthday"]; ?></h1>
+                    <h1 class="name-value" id="name-value"><b>Fecha de nacimiento:</b><?php echo $_POST["birthday_form"]; ?></h1>
                     <hr>
-                    <h1 class="name-value" id="name-value"><b>Provincia:</b><?php echo $_POST["province"]; ?></h1>
+                    <h1 class="name-value" id="name-value"><b>Provincia:</b><?php echo $_POST["province_form"]; ?></h1>
                     <hr>
-                    <h1 class="name-value" id="name-value"><b>Pais:</b><?php echo $_POST["country"]; ?></h1>
+                    <h1 class="name-value" id="name-value"><b>Pais:</b><?php echo $_POST["country_form"]; ?></h1>
                     <hr>
                 </div>
             </div>
             
         </div>
     </form>
-   <script src="/js/form.js"></script>
+   <script src="/js/funcionesGrupo99.js"></script>
 </body>
 </html>
