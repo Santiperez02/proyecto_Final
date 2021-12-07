@@ -1,0 +1,193 @@
+@import url(/css/fonts/VENOM.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: black;
+    width: 90%;
+    margin: 40px auto; 
+    font-family: poppins;
+    color: white;
+    font-size: 18px;
+
+    p {
+        text-align: center;
+    }
+    
+    /* Footer */
+    
+    footer {
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 50px;
+    }  
+       
+    /* Header */
+  .header-container {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo-header {
+
+        a {
+            img {
+                width: 100px;
+            }
+        }
+      }
+
+      .logo-header:hover {
+          opacity: 0.7;
+      }
+      
+      .menu {
+          ul {
+              font-size: 16px;
+              display: flex;
+              text-decoration: none;
+              align-items: center;
+
+              li {
+                  padding: 0px 10px;
+                  list-style: none;
+
+                  .a-form {
+                      color: black;
+                  }
+
+                  .a-form:active {
+                      color: white;
+                  }
+                  
+                  a {
+                      text-decoration: none;
+                      display: flex;
+                      align-items: center;
+                      color: white;
+
+                      .menu-img {
+                      width: 50px;
+                      height: auto;
+                      
+                    }
+
+                    .menu-img:hover {
+                        opacity: 0.5;
+                    }                    
+                }
+
+                /* Estilo menu gral. */
+
+                a:hover {
+                    color: gray;
+                }
+
+                a:active {
+                    color: rgb(0, 3, 184);   
+                }
+
+                /* Estilos juegos, venom y carnage (Menú) */
+
+                #juegos:hover {
+                    color: gray;
+                }
+
+                #juegos:active {
+                    opacity: 0.8;
+                }
+
+                #venom:hover {
+                    color: gray;
+                }
+
+                #venom:active {
+                    color: rgb(0, 3, 184);
+                }
+
+                #carnage:active {
+                    color: #da425e;
+                }
+              }
+
+              .form {
+                  background-color: white;
+                  color: black;
+                  border-radius: 10px;
+                  margin: 0 0 0 10px;
+              }
+
+              .form:hover {
+                  outline: white solid 1px;
+                  background-color: black;
+                  color: white;
+                  cursor: pointer;
+              }
+          }
+      }
+  }
+  
+    /* Main */  
+  
+  main{
+      .latest {
+        width: 65%;
+        font-size: 1.22em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 160px auto;
+
+        .latest-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+
+            .latest-title {
+                font-family: VENOM;
+                font-size: 5em;
+                letter-spacing: 0.15em;
+                font-weight: 100;
+
+            }
+
+            .latest-subtitle {
+                margin: 22px 0;
+            }
+
+            .latest-button {
+                background-color: white;
+                text-decoration: none;
+                border-radius: 18px;
+                color: black;
+                padding: 5px 15px;
+            }
+
+            .latest-button:hover {
+                opacity: 0.5;
+            }
+        }
+
+        .latest-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 290px;
+                height: 9em;
+                
+            }
+        }
+    }
+  }  
+}

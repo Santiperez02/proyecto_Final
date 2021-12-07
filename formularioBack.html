@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="venom, Venom, Carnage, carnage, PS3, PS4, Consola, iniciar sesion">
+    <meta name="description" content="Los mejores videojuegos estan aquí, no pierdas tu tiempo y consulta nuestro catalogo">
+    <link rel="stylesheet" href="/css/styles-form/styles-form.css">
+    <link rel="icon" href="/img/Venom-ico.ico">
+    <title>Registrarse</title>
+</head>
+<body>
+    
+    <header class="header-container" id="header-form">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="img/logo_venom.png">
+            </a>
+        </div>
+        
+        <div class="menu">
+            <ul>
+                <li><a href="juegos.html" id="juegos">JUEGOS</a></li>
+                <li><a href="venom.html" id="venom">VENOM</a></li>
+                <li><a href="carnage.html" id="carnage">CARNAGE</a></li>
+                <li><a href="https://www.dccomics.com/"><img src="/img/dc-logo.png" class="menu-img"></a></li>
+                <li><a href="https://www.marvel.com" target="_blank"><img src="/img/marvel_logo.png" class="menu-img"></a></li>
+                <li class="menu-form"><a href="formulario.html" class="a-form">Mi cuenta</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="form" id="form-formulario">
+        <p class="title-sign" id="title-form">REGISTRARSE (Es gratis!)</p>
+        <br>
+        <form action="" method="post" class="formularioPag" id="formularioPag">
+            <p class="name-form" id="name-form">Nombre</p>
+            <input type="text" id="name" name="id-name" class="form-style" autocomplete="off" placeholder="Nombre" maxlength="35" size="40" >
+            
+                <br><br>
+                
+            <p class="apellido-form" id="apellido-form">Apellido</p>
+            <input type="text" id="surname" name="id-surname" class="form-style" placeholder="Apellido" maxlength="35" size="40">
+            
+                <br><br>
+                
+
+            <p class="usuario-form" id="usuario-form">Ingrese su nombre de usuario:</p>                
+            <input type="text" id="nickname" name="id-nickname" class="form-style" placeholder="Usuario" maxlength="35" size="40" >
+            
+                <br><br>
+
+                
+            <p class="pass-form" id="pass-form">Contraseña:</p>
+            <input type="password" id="contraseña" name="contraseña" class="form-style" placeholder="Contraseña" maxlength="35" >
+            
+                <br><br>
+
+            <p class="repass-form" id="repass-form">Confirme su contraseña:</p>
+            <input type="password" id="contraseña1" name="contraseña1" class="form-style" placeholder="Confirme su contraseña" maxlength="35" >
+            
+                <br><br>
+                
+            <p class="mail-form" id="mail-form">Ingrese su e-mail</p>
+            <input type="email" id="mail" name="e-mail" class="form-style" placeholder="ejemplo@ejem.com" size="30">
+
+                <br><br>
+                
+            <p class="tel-form" id="tel-form">Ingrese su numero de telefono</p>
+            <input type="tel" id="tel" name="telefono" class="form-style" placeholder="3571 - ######" size="30">
+                
+                <br><br>
+                
+            <p class="day-form" id="day-form">Fecha de nacimiento</p>
+            <input type="date" id="fechaNacimiento" name="nacimiento" class="form-style" placeholder="15/02/2002">
+
+                <br><br>
+            
+            <p class="province-form" id="province-form">Provincia</p>
+            <input type="text" id="provincia" name="id-province" class="form-style" placeholder="Provincia" maxlength="35" size="40" >
+            
+                <br><br>
+            
+            <p class="country-form" id="country-form">Pais</p>
+            <input type="text" id="country" name="id-country" class="form-style" placeholder="Pais" maxlength="35" size="40" >
+            
+                
+
+                <br><br>
+            <input type="submit" class="button-style" id="button-style" value="REGISTRARSE" onclick="validar()">
+        </form>
+        </main>
+    <script src="/js/form.js"></script>
+    </body>
+</html>

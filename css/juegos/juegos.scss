@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background-color: black;
+    width: 90%;
+    margin: 40px auto; 
+    font-family: poppins;
+    color: white;
+    font-size: 18px;
+  }
+
+/* Comienzo header */
+
+.header-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-header {
+
+        a {
+            img {
+                width: 100px;
+            }
+        }
+      }
+
+      .logo-header:hover {
+          opacity: 0.7;
+      }
+    
+    .menu {
+        ul {
+            font-size: 16px;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+
+            li {
+                padding: 0px 10px;
+                list-style: none;
+
+                .a-form {
+                    color: black;
+                }
+
+                .a-form:active {
+                    color: white;
+                }
+                
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+
+                    .menu-img {
+                    width: 50px;
+                    height: auto;
+                    
+                  }
+
+                  .menu-img:hover {
+                      opacity: 0.5;
+                  }                    
+              }
+
+              /* Estilo menu gral. */
+
+              a:hover {
+                  color: gray;
+              }
+
+              a:active {
+                  color: rgb(0, 3, 184);   
+              }
+
+              /* Estilos juegos, venom y carnage (Menú) */
+
+              #juegos:hover {
+                  color: gray;
+              }
+
+              #juegos:active {
+                  opacity: 0.8;
+              }
+
+              #venom:hover {
+                  color: gray;
+              }
+
+              #venom:active {
+                  color: rgb(0, 3, 184);
+              }
+
+              #carnage:active {
+                  color: #da425e;
+              }
+            }
+
+            .form {
+                background-color: white;
+                color: black;
+                border-radius: 10px;
+                margin: 0 0 0 10px;
+            }
+
+            .form:hover {
+                outline: white solid 1px;
+                background-color: black;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.card-seccion {
+    font-size: 0.7em;
+    margin: 95px 0;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+
+    .card {
+        background-color: rgb(41, 41, 41);
+        padding: 35px 15px 35px 15px;
+        border-radius: 15px;
+        color: rgb(175, 175, 175);
+        
+        
+        .card-head {
+            text-align: center;
+            color: white;
+            
+            img {
+                width: 200px;
+            }
+            
+            .card-game {
+                margin: 5px 0 0 0;
+                padding: 0 0 0 0;
+            }
+            
+            .card-price {
+                padding: 0 0 10px 0;
+            }
+        }
+        
+        .card-description {
+            text-align: center;
+            padding: 4px 0;
+            font-size: 0.795em;
+        }
+        
+        .card-buy {
+            text-align: center;
+            margin-top: 14px;
+            padding: 18px 0 6px 0;
+            
+            .card-button {
+                background-color: rgb(42, 175, 42);    
+                color: rgb(255, 255, 255);
+                padding: 10px 15px;
+                border-radius: 10px;
+                text-decoration: none;
+                
+            }
+
+            .card-button:hover {
+                background-color: rgb(9, 65, 9);
+                color: white;
+            }
+        }
+    }
+    .card:hover {
+        opacity: 0.845;
+        cursor: pointer;
+    }    
+}

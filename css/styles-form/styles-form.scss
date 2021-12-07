@@ -1,0 +1,268 @@
+@import url(/css/fonts/VENOM.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: black;
+    width: 90%;
+    margin: 40px auto;
+    font-family: poppins;
+    color: white;
+    font-size: 18px;
+}
+
+/* Comienzo header */
+
+.header-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-header {
+
+        a {
+            img {
+                width: 100px;
+            }
+        }
+      }
+
+      .logo-header:hover {
+          opacity: 0.7;
+      }
+    
+    .menu {
+        ul {
+            font-size: 16px;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            
+
+            li {
+                padding: 0px 10px;
+                list-style: none;
+                
+                .a-form {
+                    color: white;
+                }
+                
+                .a-form:active {
+                    color: white;
+                }
+                
+                .a-form:hover {
+                    text-decoration: underline;
+                }
+
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+
+                    .menu-img {
+                    width: 50px;
+                    height: auto;
+                    
+                  }
+
+                  .menu-img:hover {
+                      opacity: 0.5;
+                  }   
+              }
+
+              /* Estilo menu gral. */
+
+              a:hover {
+                  color: gray;
+              }
+
+              a:active {
+                  color: rgb(0, 3, 184);   
+              }
+
+              /* Estilos juegos, venom y carnage (Menú) */
+
+              #juegos:hover {
+                  color: gray;
+              }
+
+              #juegos:active {
+                  opacity: 0.8;
+              }
+
+              #venom:hover {
+                  color: gray;
+              }
+
+              #venom:active {
+                  color: rgb(0, 3, 184);
+              }
+
+              #carnage:active {
+                  color: #da425e;
+              }
+            }
+
+        }
+    }
+}       
+
+.main-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form {
+        background-color: #3f3f3f;
+        padding: 35px 50px;
+        color: #b1b1b1;
+        border-radius: 10px;
+        margin-top: 40px;
+
+        .form-login {
+        
+            input {
+                color: #b1b1b1;
+                background: none;
+                font-size: 16px;
+                display: block;
+                padding: 10px 10px 5px 0;
+                width: 100%;
+                border: none;
+                border-bottom: solid 1px var(--colorTextos);
+            }
+
+            input:focus {
+                outline: none;
+                color: #b1b1b1;
+            }
+            
+            h1 {
+                font-size: 18px;
+                color: white;
+                text-align: center;
+                font-weight: 500;
+            } 
+
+            .group-form {
+                margin: 45px 0;
+                font-weight: 700;
+                position: relative;
+
+            }
+
+            .button-form {
+                text-align: center;
+            }
+
+            label {
+                color: #818181;
+                font-size: 14px;
+                position: absolute;
+                bottom: 5px;
+                top: 10px;
+                transition: 0.5s ease-in-out;
+                pointer-events: none;
+            }
+
+            input:focus~label,
+            input:valid~label {
+                top: -20px;
+                font-weight: 200;
+                font-size: 14px;
+                color: white
+            }
+            
+
+            .barra {
+                position: relative;
+                display: block;
+                width: 100%;
+
+            }
+
+            .barra::before {
+                content: "";
+                height: 2px;
+                width: 0%;
+                bottom: 0;
+                position: absolute;
+                background: linear-gradient(to right, #eb5757, #000000);        
+            }
+
+            input:focus~.barra::before {
+                width: 100%;
+                transition: 0.5s;
+            }
+        }
+
+        .form-bottom {
+            text-align: center;
+            margin-bottom: 24px;
+
+            .warnings {
+                width: 200px;
+                text-align: center;
+                margin: auto;
+                color: #eb5757;
+                padding-top: 5px;
+                font-size: 12px;
+            }
+            
+            button {
+                background: #000000;  
+                /* fallback for old browsers */
+                background: -webkit-linear-gradient(to left, #eb5757, #000000);  
+                /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to left, #eb5757, #000000); 
+                /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                font-family: 'poppins';
+                border: none;
+                color: white;
+                width: 100%;
+                height: 35px;
+                border-radius: 10px;
+                
+            }
+
+            button:hover {
+                cursor: pointer;
+            }
+
+            button:active {
+                opacity: 0.8;
+            }
+        }
+
+        
+
+        a {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-size: 12px;
+            color: #b1b1b1;
+
+        }
+
+        a:hover {
+            cursor: pointer;
+        }
+
+        a:active {
+            opacity: 0.7;
+        }
+    }
+  }
+
+
